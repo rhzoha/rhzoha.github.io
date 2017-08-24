@@ -37,7 +37,7 @@ $(window).load(function () {
 
     //hide or show the "back to top" link
     $(window).scroll(function () {
-        ($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible'): $back_to_top.removeClass('cd-is-visible cd-fade-out');
+        ($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
         if ($(this).scrollTop() > offset_opacity) {
             $back_to_top.addClass('cd-fade-out');
         }
@@ -59,5 +59,11 @@ $(window).load(function () {
         if ($(this).val() === "") {
             $(this).next("span").removeClass("active");
         }
+    });
+});
+
+$(document).ready(function () {
+    particlesJS.load('particles-js', 'particles.json', function () {
+        console.log('callback - particles.js config loaded');
     });
 });

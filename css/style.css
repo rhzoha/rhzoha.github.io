@@ -37,7 +37,8 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #999;
+    overflow-x: hidden;
 }
 
 .no-padding {
@@ -375,6 +376,7 @@ h5 {
     text-decoration: none;
     font-weight: bold;
 }
+
 .box-primary-nav a:focus {
     outline: none;
 }
@@ -426,6 +428,12 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .box-intro .table-cell {
@@ -991,7 +999,7 @@ footer img {
     resize: none;
 }
 
-.textarea-contact > span {
+.textarea-contact>span {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -1026,7 +1034,7 @@ footer img {
     color: #9a9a9a;
 }
 
-.input-contact > span {
+.input-contact>span {
     position: absolute;
     top: 50%;
     left: 20px;
@@ -1040,8 +1048,8 @@ footer img {
     z-index: 1;
 }
 
-.input-contact > span.active,
-.textarea-contact > span.active {
+.input-contact>span.active,
+.textarea-contact>span.active {
     color: #ffbf00;
     font-size: 10px;
     top: 0px;

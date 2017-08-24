@@ -1,0 +1,21 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhzoha/rhzoha.github.io.git"
+  },
+  "author": "rhzoha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhzoha/rhzoha.github.io/issues"
+  },
+  "homepage": "https://github.com/rhzoha/rhzoha.github.io#readme"
+}
